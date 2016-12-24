@@ -1,0 +1,2 @@
+
+$ rmdir tstp

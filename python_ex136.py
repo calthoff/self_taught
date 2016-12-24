@@ -1,0 +1,2 @@
+
+len(colors)
