@@ -14,9 +14,7 @@ class Shape():
               self.length))
 
 
-
-
- class Square(Shape):
+class Square(Shape):
     pass
 
 

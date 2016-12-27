@@ -6,7 +6,7 @@ def count_characters(string):
             count_dict[c] += 1
         else:
             count_dict[c] = 1
-   print(count_dict)
+    print(count_dict)
 
 
 count_characters("Dynasty")

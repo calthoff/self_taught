@@ -12,11 +12,10 @@ class Rectangle():
         self.created.append((self.width,
                              self.length))
 
-
     def print_size(self):
         print("""{} by
-        {}"""".format(self.width,
-                      self.length))
+        {}""".format(self.width,
+                     self.length))
 
 
 r1 = Rectangle(10, 24)

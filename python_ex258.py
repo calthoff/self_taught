@@ -7,12 +7,11 @@ class Shape():
         self.width = w
         self.length = l
 
-
     def print_size(self):
         print("""{} by {}
-       """.format(self.width,
+        """.format(self.width,
                   self.length))
 
 
- my_shape = Shape(20, 25)
- my_shape.print_size()
+my_shape = Shape(20, 25)
+my_shape.print_size()

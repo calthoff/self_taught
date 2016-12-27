@@ -7,19 +7,15 @@ class Shape():
         self.width = w
         self.length = l
 
-
     def print_size(self):
         print("""{} by {}
          """.format(self.width,
          self.length))
 
 
-
-
- class Square(Shape):
+class Square(Shape):
     def area(self):
         return self.width * self.length
-
 
     def print_size(self):
         print("""I am a square

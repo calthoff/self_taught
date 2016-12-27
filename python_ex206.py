@@ -2,7 +2,7 @@
 tv = ["GOT", "Narcos",
       "Vice"]
 coms = ["Arrested Development",
-        "friends,
+        "friends",
         "Always Sunny"]
 all_shows = []
 

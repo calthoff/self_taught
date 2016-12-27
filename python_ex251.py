@@ -7,10 +7,8 @@ class Rectangle():
         self.width = w
         self.length = l
 
-
     def area(self):
-        return self.w * self.l
-
+        return self.width * self.length
 
     def change_size(self, w, l):
         self.width = w

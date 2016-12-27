@@ -9,7 +9,7 @@ def bottles_of_beer(bob):
         print("""No more bottles
               of beer on the wall.
               No more bottles of
-              beer."""")
+              beer.""")
         return
     tmp = bob
     bob -= 1
