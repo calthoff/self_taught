@@ -11,10 +11,10 @@ class Card:
              "diamonds",
              "clubs"]
     values = [None, None,"2", "3",
-             "4", "5", "6", "7", "8",
-             "9", "10", "Jack",
-             "Queen", "King",
-             "Ace"]
+              "4", "5", "6", "7", "8",
+              "9", "10", "Jack",
+              "Queen", "King",
+              "Ace"]
 
     def __init__(self, value, suit):
         """suit and value are ints"""
@@ -43,7 +43,8 @@ class Card:
 
     def __repr__(self):
         v = self.values[self.value] \
-            + " of " + self.suits[self.suit]
+            + " of " + \
+            self.suits[self.suit]
         return v
 
 
@@ -52,7 +53,8 @@ class Deck:
        self.cards = []
        for i in range(2, 15):
            for j in range(4):
-               self.cards.append(Card(i, j))
+               self.cards\
+                   .append(Card(i, j))
        shuffle(self.cards)
 
    def rm_card(self):
@@ -81,30 +83,29 @@ class Game:
        print("beginning War!")
        response = None
        while len(cards) >= 2:
-           response = input("""q to
-                            quit. other
-                            key to
-                            play.""")
+           m = "q to quit. Any key " + \
+               "to play:"
+           response = input(m)
            if response == 'q':
                break
            p1_card = self.deck.rm_card()
            p2_card = self.deck.rm_card()
-           print("""{} drew {} {} drew {}
-           """.format(self.p1.name,
-                      p1_card,
-                      self.p2.name,
-                       p2_card))
+           print("{} drew {} {} drew {}"
+                 .format(self.p1.name,
+                         p1_card,
+                         self.p2.name,
+                         p2_card))
            if p1_card > p2_card:
                self.p1.wins += 1
-               print("""{} wins this round
-                     """.format(self.p1.name))
+               print("{} wins this round"
+                     .format(self.p1.name))
            else:
                self.p2.wins += 1
-               print("""{} wins this round
-          """.format(self.p2.name))
-       print("""The War is over.{} wins
-        """.format(self.winner(self.p1,
-                               self.p2)))
+               print("{} wins this round"
+                     .format(self.p2.name))
+       print("The War is over.{} wins"
+             .format(self.winner(self.p1,
+                                 self.p2)))
 
    def winner(self, p1, p2):
        if p1.wins > p2.wins:
