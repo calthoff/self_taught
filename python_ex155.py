@@ -8,5 +8,5 @@
 # Continue from
 # last example
 
-rappers = lists[0]
+rap = lists[0]
 print(rappers)
