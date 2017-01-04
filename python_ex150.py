@@ -1,6 +1,4 @@
-
 bill = dict({"Bill Gates":
-                 "charitable"})
-
+              "charitable"})
 
 "Bill Gates" in bill
