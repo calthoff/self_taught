@@ -1,14 +1,17 @@
+# the variable in this example has been changed from
+#  # country in older versions of the book to home 
+#  so the example fits on smaller devices. If you have an older
+#  # version of the book, you can email me at cory@theselftaughtprogrammer.io 
+#  to update to the newest version. Thank you so much for reading!
 
-# https://goo.gl/Qwb5OD
-
-country = "Mars"
-if country == "America":
+home = "Mars"
+if home == "America":
     print("Hello, America!")
-elif country == "Canada":
+elif home == "Canada":
     print("Hello, Canada!")
-elif country == "Thailand":
+elif home == "Thailand":
     print("Hello, Thailand!")
-elif country == "Mexico":
+elif home == "Mexico":
     print("Hello, Mexico!")
 else:
     print("Hello, World!")
