@@ -1,10 +1,4 @@
-
-# http://tinyurl.com/hxggf6l
-
-
 x = 100
-
-
 
 
 def f():
