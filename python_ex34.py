@@ -1,2 +1,2 @@
 
-my_string = "Hello, World!"
+hi = "Hello, World!"
