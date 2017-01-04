@@ -1,3 +1,2 @@
-
-# this is algebra, not Python code
+# Do not run.
 f(x) = x * 2
