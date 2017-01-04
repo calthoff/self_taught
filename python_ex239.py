@@ -25,14 +25,14 @@ def hangman(word):
         print((" ".join(board)))
         print("\n".join(stages[0: wrong + 1]))
         if "__" not in board:
-            print("""You lose! It was {}."""
+            print("You win!"
                   .format(word))
             print(" ".join(board))
             win = True
             break
     if not win:
         print("\n".join(stages[0: wrong]))
-        print("""You lose! It was {}."""
+        print("You lose! It was {}."
               .format(word))
 
 hangman("cat")
