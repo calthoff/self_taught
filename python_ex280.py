@@ -16,14 +16,12 @@ class Card:
              "Queen", "King",
              "Ace"]
 
-
-   def __init__(self, value, suit):
+    def __init__(self, value, suit):
         """suit and value are ints"""
         self.value = value
         self.suit = suit
 
-
-   def __lt__(self, other):
+    def __lt__(self, other):
         if self.value < other.value:
             return True
         if self.value == other.value:
@@ -32,7 +30,6 @@ class Card:
             else:
                 return False
         return False
-
 
     def __gt__(self, other):
         if self.value > other.value:
@@ -44,18 +41,10 @@ class Card:
                 return False
         return False
 
-
     def __repr__(self):
-        v = self.values[self.value]
-        v = + " of " + self.suits[self.suit]
+        v = self.values[self.value] \
+            + " of " + self.suits[self.suit]
         return v
-
-
-
-
-
-
-from random import shuffle
 
 
 class Deck:
@@ -66,15 +55,10 @@ class Deck:
                self.cards.append(Card(i, j))
        shuffle(self.cards)
 
-
    def rm_card(self):
        if len(self.cards) == 0:
            return
        return self.cards.pop()
-
-
-
-
 
 
 class Player:
@@ -84,10 +68,6 @@ class Player:
        self.name = name
 
 
-
-
-
-
 class Game:
    def __init__(self):
        name1 = input("p1 name ")
@@ -95,7 +75,6 @@ class Game:
        self.deck = Deck()
        self.p1 = Player(name1)
        self.p2 = Player(name2)
-
 
    def play_game(self):
        cards = self.deck.cards
@@ -126,7 +105,6 @@ class Game:
        print("""The War is over.{} wins
         """.format(self.winner(self.p1,
                                self.p2)))
-
 
    def winner(self, p1, p2):
        if p1.wins > p2.wins:
