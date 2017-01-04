@@ -1,20 +1,27 @@
+# The dictionary keys and values in this example are different from
+#  older versions of the book. I made the keys an values shorter
+# so the example fits on smaller devices. I changed "programming" to "code"
+# "charitable" to "Gates" and "america_founded" to "founded".
+# If you have an older version of the book, you can email me at cory@theselftaughtprogrammer.io 
+# and I will send you the newest version. Thank you so much for purchasing my book!
+
 
 facts = dict()
 
 
 # add a value
-facts["programming"] = "fun"
+facts["code"] = "fun"
 # lookup a key
-facts["programming"]
+facts["code"]
 
 
 # add a value
-facts["Bill Gates"] = "charitable"
+facts["Bill"] = "Gates"
 # lookup a key
-facts["Bill Gates"]
+facts["Bill"]
 
 
 # add a value
-facts["america_founded"] = 1776
+facts["founded"] = 1776
 # lookup a key
-facts["america_founded"]
+facts["founded"]
