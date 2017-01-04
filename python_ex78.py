@@ -1,5 +1,5 @@
 # I shortened the message that gets printed in this example.
-# Older versions of the book print "I don't know what x is."
+# The example in older versions of the book prints "I don't know what x is."
 # I did this so the example will fit better on smaller devices.
 # If you have an older version of the book, you can email
 # me at cory@theselftaughtprogrammer.io 
