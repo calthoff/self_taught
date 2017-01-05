@@ -3,9 +3,10 @@
 
 
 class Dog():
-    def __init__(self, name,
-                       breed,
-                       owner):
+    def __init__(self,
+                 name,
+                 breed,
+                 owner):
         self.name = name
         self.breed = breed
         self.owner = owner
