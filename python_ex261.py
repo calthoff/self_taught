@@ -1,5 +1,5 @@
-
-# http://tinyurl.com/goqtw53
+# variable name length in older editions of the book changed to len.
+# Email cory@theselftaughtprogrammer.io for latest version
 
 
 class Shape():
@@ -10,7 +10,7 @@ class Shape():
     def print_size(self):
         print("""{} by {}
          """.format(self.width,
-         self.length))
+                    self.length))
 
 
 class Square(Shape):
@@ -18,10 +18,9 @@ class Square(Shape):
         return self.width * self.length
 
     def print_size(self):
-        print("""I am a square
-        that is {} by {}"""
-        .format(self.width,
-                self.length))
+        print("""I am {} by {}
+              """.format(self.width,
+                         self.length))
 
 
 a_square = Square(20, 20)
