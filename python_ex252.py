@@ -8,7 +8,8 @@
 class Rectangle():
     def __init__(self, w, l):
         self.width = w
-        self.length = l
+        self.len = l
+
 
     def area(self):
-        return self.width * self.length
+        return self.width * self.len
