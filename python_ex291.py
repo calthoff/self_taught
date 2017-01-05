@@ -1,6 +1,13 @@
+# IMPORTANT. I recently changed this example in the book.
+# I made changes so the example fits on smaller devices. If you have an older
+# version of the book, you can email me at cory@theselftaughtprogrammer.io 
+# and I will send you the newest version. Thank you so much for purchasing my book!
+
 
 def scrape(self):
-    r = urllib.request.urlopen(self.site)
+    r = urllib.request\
+        .urlopen(self.site)
     html = r.read()
-    soup = BeautifulSoup(html,
-              'html.parser')
+    sp = BeautifulSoup\
+                      (html,
+                       "html.parser")
