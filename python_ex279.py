@@ -1,4 +1,3 @@
-
 # IMPORTANT. I recently made changes to this example to make it fit on smaller screens. The example in older versions
 # of the book will be different than what is displayed below.
 # If you have an older
