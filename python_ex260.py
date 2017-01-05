@@ -1,23 +1,20 @@
+# variable name length in older editions of the book changed to len.
+# Email cory@theselftaughtprogrammer.io for latest version
 
-# http://tinyurl.com/hca2wdh
+
 class Shape():
-   def __init__(self, w, l):
-       self.width = w
-       self.length = l
+    def __init__(self, w, l):
+        self.width = w
+        self.len = l
 
-
-   def print_size(self):
-       print("""{} by {}
-         """.format(self.width,
-         self.length))
-
-
-
+    def print_size(self):
+        print("""{} by {}
+          """.format(self.width,
+                     self.len))
 
 class Square(Shape):
-   def area(self):
-       return self.width * self.length
-
+    def area(self):
+        return self.width * self.len
 
 a_square = Square(20, 20)
 print(a_square.area())
