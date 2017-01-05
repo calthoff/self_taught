@@ -1,9 +1,7 @@
+# Do not run.
 
-# The code in this example does not
-# work.
-
-
-# Drawing shapes w/o polymorphism
+# Drawing shapes
+# w/o polymorphism
 shapes = [tr1, sq1, cr1]
 for a_shape in shapes:
     if type(a_shape) == "Triangle":
@@ -11,10 +9,10 @@ for a_shape in shapes:
     if type(a_shape) == "Square":
         a_shape.draw_square()
     if type(a_shape) == "Circle":
-         a_shape.draw_circle()[f]
+         a_shape.draw_circle()
 
-
-# Drawing shapes with polymorphism
+# Drawing shapes
+# with polymorphism
 shapes = [tr1,
           sw1,
           cr1]
