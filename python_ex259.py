@@ -1,6 +1,7 @@
 # variable name length in older editions of the book changed to len.
 # Email cory@theselftaughtprogrammer.io for latest version
 
+
 class Shape():
     def __init__(self, w, l):
         self.width = w
