@@ -16,6 +16,7 @@ def collect_songs():
         genre = input(ask)
         if genre == "q":
             break
+            
         if genre == "r":
             rk = input(song)
             rock.append(rk)
