@@ -7,4 +7,4 @@
 # version of the book, you can email me at cory@theselftaughtprogrammer.io 
 # and I will send you the newest version. Thank you so much for purchasing my book!
 
-"""William {}""".format("Faulkner")
+"William {}".format("Faulkner")
