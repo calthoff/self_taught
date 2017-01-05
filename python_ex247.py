@@ -12,6 +12,5 @@ class Orange:
         print("Created!")
 
 or1 = Orange(10, "dark orange")
-
 print(or1.weight)
 print(or1.color)
