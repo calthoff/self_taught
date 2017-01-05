@@ -1,3 +1,8 @@
+# IMPORTANT. I recently made changes to this example in the book.
+# so the example fits on smaller devices. If you have an older
+# version of the book, you can email me at cory@theselftaughtprogrammer.io 
+# and I will send you the newest version. Thank you so much for purchasing my book!
+
 
 import time
 import random
@@ -19,26 +24,32 @@ class Queue:
     def size(self):
         return len(self.items)
 
+    def simulate_line(self,
+                      till_show,
+                      max_time):
+        pq = Queue()
+        tix_sold = []
 
-def simulate_line(time_till_show,
-                             max_time):
-    pq = Queue()
-    tickets_sold_to = []
+        for i in range(10):
+            pq.enqueue("person"
+                       + str(i))
 
-    for i in range(10):
-        pq.enqueue("person" + str(i))
-
-    t_end = time.time() + time_till_show
-    now = time.time()
-    while now < t_end and not pq.is_empty():
+        t_end = time.time()\
+                + till_show
         now = time.time()
-        r = random.randint(0, max_time)
-        time.sleep(r)
-        person = pq.dequeue()
-        print(person)
-        tickets_sold_to.append(person)
+        while now < t_end \
+        and not pq.is_empty():
+            now = time.time()
+            r = random.\
+                randint(0,
+                        max_time)
+            time.sleep(r)
+            person = pq.dequeue()
+            print(person)
+            tix_sold.append(person)
 
-    return tickets_sold_to
+        return tix_sold
 
-
-print(simulate_line(5, 1))
+queue = Queue()
+sold = queue.simulate_line(5, 1)
+print(sold)
