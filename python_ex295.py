@@ -1,3 +1,3 @@
 
-stack[j] = Stack()
+stack = Stack()
 print(stack.is_empty())
