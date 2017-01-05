@@ -9,10 +9,9 @@ country = []
 
 
 def collect_songs():
-    song= "Enter a song."
+    song = "Enter a song."
     ask = "Type r or c. q to quit"
 
-    genre = None
     while True:
         genre = input(ask)
         if genre == "q":
