@@ -14,6 +14,6 @@
 # and I will send you the newest version. Thank you so much for purchasing my book!
 
 
-equ = """All animals are equal."""
+equ = "All animals are equal."
 equ = equ.replace("a", "@")
 print(equ)
