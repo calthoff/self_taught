@@ -1,7 +1,3 @@
-# variable names width and length in older editions of the book changed to w and l.
-# Email cory@theselftaughtprogrammer.io for latest version
-
-
 class Rectangle():
     def __init__(self, w, l):
         self.width = w
