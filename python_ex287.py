@@ -1,13 +1,7 @@
-
-# http://tinyurl.com/hswz4u6
-
-
 from flask import Flask
 
 
 app = Flask(__name__)
-
-
 
 
 @app.route('/')
