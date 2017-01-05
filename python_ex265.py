@@ -1,12 +1,11 @@
-
-# http://tinyurl.com/gphb6fd
+# variable name length in older editions of the book changed to len.
+# Email cory@theselftaughtprogrammer.io for latest version
 
 
 class Rectangle():
     def __init__(self, w, l):
         self.width = w
         self.length = l
-
 
     def print_size(self):
         print("""{} by {}
