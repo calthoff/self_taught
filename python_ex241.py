@@ -1,40 +1,33 @@
-
-# http://tinyurl.com/zzyuspf
-
+# IMPORTANT. I changed many of the variable names in this example
+# so the example fits on smaller devices. Old versions of the book have longer
+# variable names. If you have an older
+# version of the book, you can email me at cory@theselftaughtprogrammer.io 
+# and I will send you the newest version. Thank you so much for purchasing my book!
 
 rock = []
 country = []
 
 
-
-
 def collect_songs():
-    song= """Enter the
-   name of your
-   song."""
+    song= "Enter a song."
+    ask = "Type r or c. q to quit"
+
     genre = None
     while True:
-        genre = input("Type rock
-       or country to
-       add a new
-       song. q to
-       quit")
+        genre = input(ask)
         if genre == "q":
             break
-        if genre == "rock":
-            rock = input(song)
-            rocks.append(rock)
+        if genre == "r":
+            rk = input(song)
+            rock.append(rk)
 
-
-        elif genre ==("country"):
-            country = input(song)
-            country.append(country)
-
+        elif genre ==("c"):
+            cy = input(song)
+            country.append(cy)
 
         else:
-            print("Invalid genre.")
-    print(rocks)
+            print("Invalid.")
+    print(rock)
     print(country)
-
 
 collect_songs()
