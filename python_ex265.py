@@ -1,4 +1,4 @@
-# variable name length in older editions of the book changed to len.
+# variable names width and length in older editions of the book changed to w and l.
 # Email cory@theselftaughtprogrammer.io for latest version
 
 
