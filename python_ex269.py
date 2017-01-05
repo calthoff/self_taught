@@ -1,5 +1,5 @@
-
-# http://tinyurl.com/hrozmde
+# parameter number in older editions of the book changed to n.
+# Email cory@theselftaughtprogrammer.io for latest version
 
 
 class AlwaysPositive:
@@ -8,7 +8,7 @@ class AlwaysPositive:
 
     def __add__(self, other):
         return abs(self.number +
-                  other.number)
+                   other.number)
 
 
 x = AlwaysPositive(-20)
