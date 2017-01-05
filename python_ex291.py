@@ -8,6 +8,7 @@ def scrape(self):
     r = urllib.request\
         .urlopen(self.site)
     html = r.read()
-    sp = BeautifulSoup\
-                      (html,
-                       "html.parser")
+    parser = "html.parser"
+    sp = BeautifulSoup(html,
+                       parser)
+
