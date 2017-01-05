@@ -1,5 +1,3 @@
-
-# http://tinyurl.com/hojcpcq
 a = 0
 
 
