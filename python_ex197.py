@@ -4,8 +4,8 @@
 #ivan = """In place of death
 #          there was light.
 #       """
-#ivan[0:17]
-#ivan[17:33]
+#ivan[:17]
+
 
 # I made this change so the example fits on smaller devices. If you have an older
 # version of the book, you can email me at cory@theselftaughtprogrammer.io 
@@ -14,5 +14,4 @@
 ivan = """In place of death there \
 was light."""
 
-ivan[0:17]
-ivan[17:33]
+ivan[:17]
