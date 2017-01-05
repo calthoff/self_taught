@@ -6,8 +6,7 @@
 
 
 qs = ["What is your name?",
-      """What is your
-      favorite color?""",
+      "What is your fav. color?",
       "What is your quest?"]
 n = 0
 while True:
