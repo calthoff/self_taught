@@ -12,8 +12,8 @@ class Shape():
 
     def print_size(self):
         print("""{} by {}
-             """.format(self.width,
-                        self.len))
+              """.format(self.width,
+                         self.len))
 
 class Square(Shape):
     pass
