@@ -1,6 +1,5 @@
-
-# https://goo.gl/Zu2wyF
-
+# Continue from
+# last example
 
 result = f(2)
 print(result)

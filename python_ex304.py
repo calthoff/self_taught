@@ -1,6 +1,6 @@
 # IMPORTANT. I recently made changes to this example in the book.
 # so the example fits on smaller devices. If you have an older
-# version of the book, you can email me at cory@theselftaughtprogrammer.io 
+# version of the book (you don't see the code below), you can email me at cory@theselftaughtprogrammer.io 
 # and I will send you the newest version. Thank you so much for purchasing my book!
 
 

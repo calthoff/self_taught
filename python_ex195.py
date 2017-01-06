@@ -1,7 +1,7 @@
 
-fiction = ["Tolstoy",
-           "Camus",
-           "Orwell",
-           "Huxley",
-           "Austin"]
-fiction[0:3]
+fict = ["Tolstoy",
+        "Camus",
+        "Orwell",
+        "Huxley",
+        "Austin"]
+fict[0:3]

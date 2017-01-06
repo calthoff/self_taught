@@ -2,6 +2,6 @@
 # https://goo.gl/jOlzVl
 
 
-country = "America"
-if country == "America":
+home = "America"
+if home == "America":
     print("Hello, America!")

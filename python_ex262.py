@@ -1,7 +1,3 @@
-
-# http://tinyurl.com/gpvyf3c
-
-
 class Dog():
     def __init__(self,
                  name,
