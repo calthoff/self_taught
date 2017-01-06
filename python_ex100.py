@@ -1,8 +1,4 @@
-
-# http://tinyurl.com/jb2w6j2
-
-
-age = input("How old are you?")
+age = input("Enter your age:")
 int_age = int(age)
 if int_age < 21:
     print("You are young!")
