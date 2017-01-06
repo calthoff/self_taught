@@ -3,7 +3,7 @@
 # I did this so the example will fit better on smaller devices.
 # If you have an older version of the book, you can email
 # me at cory@theselftaughtprogrammer.io 
-# to update to the newest version. Thank you so much for reading!
+# to update to the newest version. Thank you so much for purchasing my book!
 
 
 a = input("type a number:")
