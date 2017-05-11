@@ -8,7 +8,7 @@
 import csv
 
 
-with open("st.csv", "w") as f:
+with open("st.csv", "w", newline='') as f:
     write = csv.writer(f, delimiter=",")
     write.writerow(["one",
                     "two",
