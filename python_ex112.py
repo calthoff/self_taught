@@ -1,9 +1,5 @@
-# I shortened the message that gets printed in this example.
-# The example in older versions of the book prints "Type another number:"
-# I did this so the example will fit better on smaller devices.
-# If you have an older version of the book, you can email
-# me at cory@theselftaughtprogrammer.io 
-# to update to the newest version. Thank you so much for purchasing my book!
+# Thank you so much for purchasing my book! Feel free to contact me at cory[at]theselftaughtprogrammer.io.
+# If you are enjoying it, please consider leaving a review on Amazon :). Keep up the hard work!
 
 
 a = input("type a number:")
