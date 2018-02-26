@@ -1,10 +1,4 @@
-# The dictionary keys and values in this example are different from
-#  older versions of the book. I made the keys an values shorter
-# so the example fits on smaller devices. I changed "programming" to "code"
-# "charitable" to "Gates" and "america_founded" to "founded".
-# If you have an older version of the book, you can email me at cory@theselftaughtprogrammer.io 
-# and I will send you the newest version. Thank you so much for purchasing my book!
-
+# Thanks so much for reading my book. Feel free to contact me at cory[at]theselftaughtprogrammer.io.
 
 facts = dict()
 
