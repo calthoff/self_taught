@@ -1,9 +1,4 @@
-# I shortened the message that gets printed in this example.
-# The example in older versions of the book prints "I don't know what x is."
-# I did this so the example will fit better on smaller devices.
-# If you have an older version of the book, you can email
-# me at cory@theselftaughtprogrammer.io 
-# to update to the newest version. Thank you so much for reading!
+# Thanks so much for reading my book. Feel free to contact me at cory[at]theselftaughtprogrammer.io.
 
 x = 100
 if x == 10:
