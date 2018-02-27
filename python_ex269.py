@@ -1,5 +1,4 @@
-# parameter number in older editions of the book changed to n.
-# Email cory@theselftaughtprogrammer.io for latest version
+# Thanks so much for reading my book. Feel free to contact me at cory[at]theselftaughtprogrammer.io.
 
 
 class AlwaysPositive:
