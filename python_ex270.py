@@ -1,5 +1,4 @@
-# variable name the_same_bob in older editions of the book changed to same_bob.
-# Email cory@theselftaughtprogrammer.io for latest version
+# Thanks so much for reading my book. Feel free to contact me at cory[at]theselftaughtprogrammer.io.
 
 
 class Person:
