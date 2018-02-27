@@ -1,4 +1,5 @@
 # Thank you so much for purchasing my book! Feel free to contact me at cory[at]theselftaughtprogrammer.io.
-# If you are enjoying it, please consider leaving a review on Amazon :). Best of luck on your programming journey!
+# If you are enjoying it, please consider leaving a review on Amazon :). 
+# https://www.amazon.com/dp/B01M01YDQA#customerReviews. Keep up the hard work!
 
 print("Hello, World!")
