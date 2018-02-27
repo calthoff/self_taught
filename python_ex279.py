@@ -1,8 +1,5 @@
-# IMPORTANT. I recently made changes to this example to make it fit on smaller screens. The example in older versions
-# of the book will be different than what is displayed below.
-# If you have an older
-# version of the book, you can email me at cory@theselftaughtprogrammer.io 
-# and I will send you the newest version. Thank you so much for purchasing my book!
+# Thank you so much for purchasing my book! Feel free to contact me at cory[at]theselftaughtprogrammer.io.
+# If you are enjoying it, please consider leaving a review on Amazon :). Keep up the hard work!
 
 
 class Game:
