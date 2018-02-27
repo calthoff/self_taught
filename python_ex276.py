@@ -1,8 +1,4 @@
-# I split the line of code self.cards.append(Card(i, j)) in early versions of the book into two lines:
-# self.cards\
-# .append(Card(i,
-#              j))
-# Email cory@theselftaughtprogrammer.io for latest version
+# Thanks so much for reading my book. Feel free to contact me at cory[at]theselftaughtprogrammer.io.
 
 
 from random import shuffle
