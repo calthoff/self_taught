@@ -1,6 +1,5 @@
-# variable name length in older editions of the book changed to len.
-# Also the variable name created was changed to recs.
-# Email cory@theselftaughtprogrammer.io for latest version
+# Thank you so much for purchasing my book! Feel free to contact me at cory[at]theselftaughtprogrammer.io.
+# If you are enjoying it, please consider leaving a review on Amazon :). Keep up the hard work!
 
 
 class Rectangle():
