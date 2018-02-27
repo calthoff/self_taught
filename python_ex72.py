@@ -1,8 +1,4 @@
-# the variable in this example has been changed from
-# country in older versions of the book to home
-# so the example fits on smaller devices. If you have an older
-# version of the book, you can email me at cory@theselftaughtprogrammer.io
-# to update
+# Thanks so much for reading my book. Feel free to contact me at cory[at]theselftaughtprogrammer.io.
 
 home = "Canada"
 if home == "America":
