@@ -1,10 +1,4 @@
-# IMPORTANT. I recently changed this example in the book.
-# I changed return self.items[len(self.items)-1] (in older versions) to:
-# last = len(self.items)-1
-# return self.items[last]
-# I made this change so the example fits on smaller devices. If you have an older
-# version of the book, you can email me at cory@theselftaughtprogrammer.io 
-# and I will send you the newest version. Thank you so much for purchasing my book!
+# Thanks so much for reading my book. Feel free to contact me at cory[at]theselftaughtprogrammer.io.
 
 
 class Stack:
