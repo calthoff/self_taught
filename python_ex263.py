@@ -1,5 +1,4 @@
-# variable name French Bulldog in older editions of the book changed to Bulldog so th example fits on small screens.
-# Email cory@theselftaughtprogrammer.io for latest version
+# Thanks so much for reading my book. Feel free to contact me at cory[at]theselftaughtprogrammer.io.
 
 
 # Continue from
