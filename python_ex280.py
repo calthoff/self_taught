@@ -1,8 +1,4 @@
-# IMPORTANT. I recently made changes to this example to make it fit on smaller screens. The example in older versions
-# of the book will be different than what is displayed below.
-# If you have an older
-# version of the book, you can email me at cory@theselftaughtprogrammer.io 
-# and I will send you the newest version. Thank you so much for purchasing my book!
+# Thanks so much for reading my book. Feel free to contact me at cory[at]theselftaughtprogrammer.io.
 
 
 from random import shuffle
