@@ -1,7 +1,4 @@
-# IMPORTANT. In some previous versions of the book, this example contains an error.
-# I've fixed the error in the newest version of the book and it is fixed below.
-# If you have an older version of the book, you can email me at cory@theselftaughtprogrammer.io 
-# and I will send you the newest version. Thank you so much for purchasing my book!
+# Thanks so much for reading my book. Feel free to contact me at cory[at]theselftaughtprogrammer.io.
 
 rhymes = {"1": "fun",
           "2": "blue",
