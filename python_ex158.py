@@ -7,7 +7,8 @@ eights = ["Edgar Allan Poe",
 
 nines = ["Hemingway",
          "Fitzgerald",
-         "Orwell"]
+         "Orwell",
+         "Sinclair"]
 
 
 authors = (eights, nines)
