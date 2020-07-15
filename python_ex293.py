@@ -1,5 +1,8 @@
 # Thanks so much for reading my book. Feel free to contact me at cory[at]theselftaughtprogrammer.io.
 
+### GOOGLE CHANGED THEIR CODE. Try using 'articles' instead of 'html'
+
+
 
 import urllib.request
 from bs4 import BeautifulSoup
